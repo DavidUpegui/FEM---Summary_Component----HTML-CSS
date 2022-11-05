@@ -60,6 +60,6 @@ I want to keep improving my mi abilities for be a lot efficient while working. A
 
 ## Author
 
-- Frontend Mentor - [@yDavidUpegui](https://www.frontendmentor.io/profile/DavidUpegui)
+- Frontend Mentor - [@DavidUpegui](https://www.frontendmentor.io/profile/DavidUpegui)
 - GitHub - [@DavidUpegui](https://github.com/DavidUpegui)
 
