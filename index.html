@@ -5,25 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Red+Hat+Display:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
   <main class="main">
     <article class="card">
-      <div class="card__img-cont">
-        <img src="./images/illustration-hero.svg" alt="Imagen escuchando música" class="card__img">
-      </div>
-      <h1 class="card__title">Order Summary</h1>
-      <p class="card__p">You can now listen to millions of songs, audiobooks and podcast on any device anywhere you like!</p>
-      <div class="plan">
-        <img src="./images/icon-music.svg" alt="Ícono de música" class="plan__img">
-        <div class="plan__aspects">
-          <h2 class="plan__time">Annual Plan</h2>
-          <span class="plan__price">$59.99/year</span>
+      <img src="./images/illustration-hero.svg" alt="Imagen escuchando música" class="card__img">
+      <div class="card__body">
+        <h1 class="card__title">Order Summary</h1>
+        <p class="card__p">You can now listen to millions of songs, audiobooks and podcast on any device anywhere you like!</p>
+        <div class="plan">
+          <img src="./images/icon-music.svg" alt="Ícono de música" class="plan__img">
+          <div class="plan__aspects">
+            <h2 class="plan__duration">Annual Plan</h2>
+            <span class="plan__price">$59.99/year</span>
+          </div>
+          <a href="#" class="plan__change">Change</a>
         </div>
-        <a href="#" class="plan__change">Change</a>
+        <button class="btn--pay">Proceed to Payment</button>
+        <button class="btn--cancel">Cancel Order</button>
       </div>
-      <button class="btn--pay">Proceed to Payment</button>
-      <button class="btn--cancel">Cancel Order</button>
+      
     </article>
   </main>
 </body>
